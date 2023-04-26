@@ -1,0 +1,182 @@
+ EPOCH2D v4.18.0   v4.18.0-41-gf7574f83-clean 1681813899.632           
+
+Deck state:  1
+
+ Beginning "constant" block
+
+ 	Element lambda0=100*nano handled OK
+ 	Element temp=0.0 handled OK
+ 	Element dens=0.3333e27 handled OK
+ 	Element c_1=2.99792458e8 handled OK
+ 	Element omega_p=sqrt(dens*qe^2/(me*epsilon0)) handled OK
+ 	Element lambda_p=2*pi*c_1/omega_p handled OK
+ 	Element den_tube=1.0e28 handled OK
+
+ Ending "constant" block
+
+ Beginning "control" block
+
+ 	Element nx=6000 handled OK
+ 	Element ny=300 handled OK
+ 	Element t_end=400 * femto handled OK
+ 	Element x_min=-30.0 * micron handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element y_min=-1.2 * micron handled OK
+ 	Element y_max=-y_min handled OK
+
+ Ending "control" block
+
+ Beginning "boundaries" block
+
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_y_min=open handled OK
+ 	Element bc_x_max=simple_outflow handled OK
+ 	Element bc_y_max=open handled OK
+ Beginning "boundaries" block
+
+ Beginning "laser" block
+
+ 	Element boundary=x_min handled OK
+ 	Element intensity_w_cm2=1.0e21 handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element profile=gauss(y,0,lambda_p) handled OK
+ 	Element t_profile=gauss(time,34*femto,17*femto) handled OK
+
+ Ending "laser" block
+
+ Beginning "species" block
+
+ 	Element name=electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element frac=1.0 handled OK
+ 	Element temp=0 handled OK
+ 	Element number_density=if (iy/3 - floor(iy/3) eq 0, den_tube, 0.0) handled OK
+ 	Element npart_per_cell=4 handled OK
+
+ Ending "species" block
+
+ Beginning "species" block
+
+ 	Element name=ions handled OK
+ 	Element charge=6.0 handled OK
+ 	Element mass=12.0 * 1830 handled OK
+ 	Element npart_per_cell=1 handled OK
+ 	Element immobile=T handled OK
+ 	Element number_density=if (iy/3 - floor(iy/3) eq 0, den_tube, 0.0) handled OK
+ 	Element temp=0.0 handled OK
+
+ Ending "species" block
+
+ Beginning "window" block
+
+ 	Element move_window=T handled OK
+ 	Element window_v_x=c_1 handled OK
+ 	Element window_start_time=(x_max - x_min)/c_1 handled OK
+ 	Element bc_x_min_after_move=simple_outflow handled OK
+ 	Element bc_x_max_after_move=simple_outflow handled OK
+
+ Ending "window" block
+
+ Beginning "output" block
+
+ 	Element dt_snapshot=10.0*femto handled OK
+ 	Element number_density=always + species handled OK
+ 	Element ex=always handled OK
+ 	Element ey=always handled OK
+
+ Ending "output" block
+
+Deck state:  2
+
+ Beginning "constant" block
+
+ 	Element lambda0=100*nano handled OK
+ 	Element temp=0.0 handled OK
+ 	Element dens=0.3333e27 handled OK
+ 	Element c_1=2.99792458e8 handled OK
+ 	Element omega_p=sqrt(dens*qe^2/(me*epsilon0)) handled OK
+ 	Element lambda_p=2*pi*c_1/omega_p handled OK
+ 	Element den_tube=1.0e28 handled OK
+
+ Ending "constant" block
+
+ Beginning "control" block
+
+ 	Element nx=6000 handled OK
+ 	Element ny=300 handled OK
+ 	Element t_end=400 * femto handled OK
+ 	Element x_min=-30.0 * micron handled OK
+ 	Element x_max=-x_min handled OK
+ 	Element y_min=-1.2 * micron handled OK
+ 	Element y_max=-y_min handled OK
+
+ Ending "control" block
+
+ Beginning "boundaries" block
+
+ 	Element bc_x_min=simple_laser handled OK
+ 	Element bc_y_min=open handled OK
+ 	Element bc_x_max=simple_outflow handled OK
+ 	Element bc_y_max=open handled OK
+ Beginning "boundaries" block
+
+ Beginning "laser" block
+
+ 	Element boundary=x_min handled OK
+ 	Element intensity_w_cm2=1.0e21 handled OK
+ 	Element lambda=lambda0 handled OK
+ 	Element profile=gauss(y,0,lambda_p) handled OK
+ 	Element t_profile=gauss(time,34*femto,17*femto) handled OK
+
+ Ending "laser" block
+
+ Beginning "species" block
+
+ 	Element name=electron handled OK
+ 	Element charge=-1.0 handled OK
+ 	Element mass=1.0 handled OK
+ 	Element frac=1.0 handled OK
+ 	Element temp=0 handled OK
+ 	Element number_density=if (iy/3 - floor(iy/3) eq 0, den_tube, 0.0) handled OK
+ 	Element npart_per_cell=4 handled OK
+
+ Ending "species" block
+
+ Beginning "species" block
+
+ 	Element name=ions handled OK
+ 	Element charge=6.0 handled OK
+ 	Element mass=12.0 * 1830 handled OK
+ 	Element npart_per_cell=1 handled OK
+ 	Element immobile=T handled OK
+ 	Element number_density=if (iy/3 - floor(iy/3) eq 0, den_tube, 0.0) handled OK
+ 	Element temp=0.0 handled OK
+
+ Ending "species" block
+
+ Beginning "window" block
+
+ 	Element move_window=T handled OK
+ 	Element window_v_x=c_1 handled OK
+ 	Element window_start_time=(x_max - x_min)/c_1 handled OK
+ 	Element bc_x_min_after_move=simple_outflow handled OK
+ 	Element bc_x_max_after_move=simple_outflow handled OK
+
+ Ending "window" block
+
+ Beginning "output" block
+
+ 	Element dt_snapshot=10.0*femto handled OK
+ 	Element number_density=always + species handled OK
+ 	Element ex=always handled OK
+ 	Element ey=always handled OK
+
+ Ending "output" block
+
+ 
+ *** WARNING ***
+ Two forms of nparticles used for particle species "electron"
+ Just using "nparticles_per_cell".
+ 
+ Initial conditions complete and valid.

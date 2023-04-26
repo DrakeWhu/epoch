@@ -1,0 +1,85 @@
+begin:constant
+    lambda0 = 800*nano
+    temp = 0.0
+    dens = 1.0e24 # Rango de densidades del plasma en laboratorio
+    c_1=2.99792458e8 # Velocidad de la luz
+    omega_p = sqrt(dens*qe^2/(me*epsilon0))
+    lambda_p = 2*pi/omega_p
+
+    # Parámetros simulación (standard resolution)
+    delta_x = 100*micron #Domain size in x axis
+    delta_y = 12 * micron #Domain size in y axis
+    points_per_wavelength = 30
+    wavelengths_per_domain = delta_x/lambda0
+end:constant
+
+begin: control
+    nx = points_per_wavelength*wavelengths_per_domain
+    ny = 300
+
+    # Tiempo final de simulación
+    t_end = 400 * femto
+
+    # Tamaño del dominio
+    x_min = -delta_x/2 * micron
+    x_max = -x_min
+    y_min = -delta_y/2 * micron
+    y_max = -y_min
+end:control
+
+begin:boundaries
+    bc_x_min = simple_laser
+    bc_y_min = open
+    bc_x_max = simple_outflow
+    bc_y_max = open
+begin:boundaries
+
+begin:laser
+    boundary = x_min
+    intensity_w_cm2 = 1.0e18
+    lambda = lambda0
+    profile = gauss(y,lambda_p/4,lambda_p/8)
+    #t_start = 0.0
+    #t_end = 17.0 * femto
+    t_profile = gauss(time,35*femto,17*femto)
+end:laser
+
+begin:species
+    name = electron
+    charge = -1.0
+    mass = 1.0
+    frac = 1.0
+    temp = 0
+    number_density = if (iy/3 - floor(iy/3) eq 0, dens, 0.0)
+    npart_per_cell = 1
+end:species
+
+begin:species
+    #C ions
+    name = ions
+    charge = 6.0
+    mass = 12.0 * 1830
+    npart_per_cell = 1
+    immobile = T
+    number_density = if (iy/3 - floor(iy/3) eq 0, dens, 0.0)
+    temp = 0.0
+end:species
+
+begin:window
+    move_window = T
+    window_v_x = c_1
+    # cuando el pulso está centrado en la ventana
+    window_start_time = (x_max - x_min)/c_1
+    bc_x_min_after_move = simple_outflow
+    bc_x_max_after_move = simple_outflow
+end:window
+
+begin:output
+    # Steps entre dumps
+    dt_snapshot = 10.0*femto
+
+    # Properties we want to study
+    number_density = always + species
+    ex = always
+    ey = always
+end:output
