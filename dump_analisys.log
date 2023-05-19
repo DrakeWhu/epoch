@@ -1,0 +1,221 @@
+2023-05-16 12:19:23,766 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan
+2023-05-16 12:19:35,300 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan
+2023-05-16 12:20:14,339 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan
+2023-05-16 12:21:51,598 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:21:58,077 Creating number density animation
+2023-05-16 12:22:25,808 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:22:28,134 Creating number density animation
+2023-05-16 12:22:53,367 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:22:55,975 Creating number density animation
+2023-05-16 12:22:56,745 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:22:56,748 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:23:02,074 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23
+2023-05-16 12:23:09,828 Creating number density animation
+2023-05-16 12:23:10,398 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:23:10,406 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:23:15,320 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19
+2023-05-16 12:23:22,407 Creating number density animation
+2023-05-16 12:23:23,170 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:23:23,175 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:23:28,194 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e21
+2023-05-16 12:23:36,692 Creating number density animation
+2023-05-16 12:23:37,465 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:23:37,473 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:23:42,149 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e17
+2023-05-16 12:23:46,150 Creating number density animation
+2023-05-16 12:23:46,825 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:23:46,828 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:23:51,565 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e20
+2023-05-16 12:23:58,803 Creating number density animation
+2023-05-16 12:23:59,587 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:23:59,592 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:24:04,258 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e18
+2023-05-16 12:24:12,673 Creating number density animation
+2023-05-16 12:24:13,336 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:24:13,339 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:24:20,598 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e22
+2023-05-16 12:24:29,006 Creating number density animation
+2023-05-16 12:24:29,617 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:24:29,631 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y number_density.gif
+2023-05-16 12:29:22,050 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:29:39,343 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:29:39,739 Creating number density animation
+2023-05-16 12:29:40,340 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:29:40,343 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:29:44,994 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23
+2023-05-16 12:29:48,268 Creating number density animation
+2023-05-16 12:29:48,752 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:29:48,754 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23/number_density.gif
+2023-05-16 12:29:53,357 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19
+2023-05-16 12:29:56,516 Creating number density animation
+2023-05-16 12:29:57,287 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:29:57,290 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19/number_density.gif
+2023-05-16 12:31:10,387 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:31:13,375 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23
+2023-05-16 12:31:14,090 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19
+2023-05-16 12:31:17,799 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e21
+2023-05-16 12:31:21,564 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e17
+2023-05-16 12:31:25,374 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e20
+2023-05-16 12:31:28,793 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e18
+2023-05-16 12:31:32,288 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e22
+2023-05-16 12:32:03,466 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:32:06,193 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23
+2023-05-16 12:32:06,870 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19
+2023-05-16 12:32:09,891 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e21
+2023-05-16 12:32:13,221 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e17
+2023-05-16 12:32:16,413 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e20
+2023-05-16 12:32:19,852 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e18
+2023-05-16 12:32:23,140 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e22
+2023-05-16 12:32:53,196 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:32:55,840 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23
+2023-05-16 12:32:56,445 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19
+2023-05-16 12:32:59,419 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e21
+2023-05-16 12:33:02,936 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e17
+2023-05-16 12:33:06,502 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e20
+2023-05-16 12:33:09,953 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e18
+2023-05-16 12:33:13,375 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e22
+2023-05-16 12:34:38,248 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:34:59,661 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:35:00,112 Creating number density animation
+2023-05-16 12:35:00,985 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:35:00,991 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:35:22,292 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:35:22,728 Creating number density animation
+2023-05-16 12:35:23,724 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:35:23,727 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:35:28,278 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23
+2023-05-16 12:35:28,839 Creating number density animation
+2023-05-16 12:35:29,521 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:35:29,524 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23/number_density.gif
+2023-05-16 12:35:34,356 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19
+2023-05-16 12:35:37,282 Creating number density animation
+2023-05-16 12:35:37,849 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:35:37,851 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e19/number_density.gif
+2023-05-16 12:35:42,558 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e21
+2023-05-16 12:35:46,051 Creating number density animation
+2023-05-16 12:35:46,620 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:35:46,625 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e21/number_density.gif
+2023-05-16 12:35:51,358 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e17
+2023-05-16 12:35:55,330 Creating number density animation
+2023-05-16 12:35:55,808 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:35:55,811 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e17/number_density.gif
+2023-05-16 12:36:00,541 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e20
+2023-05-16 12:36:03,943 Creating number density animation
+2023-05-16 12:36:04,394 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:36:04,398 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e20/number_density.gif
+2023-05-16 12:36:09,223 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e18
+2023-05-16 12:36:12,806 Creating number density animation
+2023-05-16 12:36:13,423 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:36:13,431 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e18/number_density.gif
+2023-05-16 12:36:18,207 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e22
+2023-05-16 12:36:21,682 Creating number density animation
+2023-05-16 12:36:22,183 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:36:22,186 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e22/number_density.gif
+2023-05-16 12:45:38,992 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:45:42,206 Creating number density animation
+2023-05-16 12:45:43,029 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:45:43,032 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:45:48,245 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23
+2023-05-16 12:45:51,563 Creating number density animation
+2023-05-16 12:45:52,203 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:45:52,205 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e23/number_density.gif
+2023-05-16 12:46:35,928 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:46:36,974 Creating number density animation
+2023-05-16 12:46:37,553 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:46:37,556 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:47:05,463 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:47:06,145 Creating number density animation
+2023-05-16 12:47:06,656 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:47:06,659 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:47:11,501 Creating longitudinal electric field animation
+2023-05-16 12:50:07,746 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:50:09,185 Creating number density animation
+2023-05-16 12:50:09,837 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:50:09,843 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:50:10,591 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:50:11,858 Creating number density animation
+2023-05-16 12:50:13,143 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:50:13,148 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:50:18,238 Creating longitudinal electric field animation
+2023-05-16 12:50:21,684 Creating longitudinal electric field animation
+2023-05-16 12:50:41,774 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:50:44,249 Creating number density animation
+2023-05-16 12:50:44,844 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:50:44,846 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:50:49,688 Creating longitudinal electric field animation
+2023-05-16 12:51:29,526 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 12:51:30,014 Creating number density animation
+2023-05-16 12:51:30,526 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 12:51:30,529 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 12:51:35,390 Creating longitudinal electric field animation
+2023-05-16 13:09:22,885 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:09:25,595 Creating number density animation
+2023-05-16 13:09:26,665 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:09:26,675 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:14:46,196 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:14:48,687 Creating number density animation
+2023-05-16 13:14:49,565 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:14:49,567 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:16:54,291 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:16:56,238 Creating number density animation
+2023-05-16 13:16:57,230 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:16:57,233 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:17:19,803 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:17:21,575 Creating number density animation
+2023-05-16 13:17:22,453 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:17:22,459 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:17:27,020 Creating longitudinal electric field animation
+2023-05-16 13:17:53,620 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:17:55,313 Creating number density animation
+2023-05-16 13:17:56,201 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:17:56,204 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:18:00,909 Creating longitudinal electric field animation
+2023-05-16 13:18:15,385 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:18:17,186 Creating number density animation
+2023-05-16 13:18:18,087 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:18:18,090 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:18:22,778 Creating longitudinal electric field animation
+2023-05-16 13:18:43,138 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:18:44,793 Creating number density animation
+2023-05-16 13:18:56,537 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:18:57,684 Creating number density animation
+2023-05-16 13:18:58,691 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:18:58,694 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:19:03,374 Creating longitudinal electric field animation
+2023-05-16 13:21:16,072 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:21:17,795 Creating number density animation
+2023-05-16 13:21:18,903 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:21:18,908 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:21:23,440 Creating longitudinal electric field animation
+2023-05-16 13:26:03,808 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:26:05,278 Creating number density animation
+2023-05-16 13:26:06,224 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:26:06,228 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:26:11,071 Creating longitudinal electric field animation
+2023-05-16 13:32:12,368 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:32:14,152 Creating number density animation
+2023-05-16 13:32:15,000 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:32:15,003 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:32:19,767 Creating longitudinal electric field animation
+2023-05-16 13:34:30,725 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-16 13:34:33,096 Creating number density animation
+2023-05-16 13:34:34,063 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-16 13:34:34,066 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-16 13:34:38,676 Creating longitudinal electric field animation
+2023-05-18 12:56:01,967 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-18 12:56:05,364 Creating number density animation
+2023-05-18 12:56:06,240 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-18 12:56:06,241 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-18 12:56:10,138 Creating longitudinal electric field animation
+2023-05-18 12:56:26,587 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-18 12:56:29,794 Creating number density animation
+2023-05-18 12:56:30,876 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-18 12:56:30,883 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-18 12:56:34,583 Creating longitudinal electric field animation
+2023-05-18 12:56:34,601 Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2023-05-18 12:57:13,752 Processing directory: /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24
+2023-05-18 12:57:16,819 Creating number density animation
+2023-05-18 12:57:17,671 Animation.save using <class 'matplotlib.animation.FFMpegWriter'>
+2023-05-18 12:57:17,672 MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 640x480 -pix_fmt rgba -r 10.0 -loglevel error -i pipe: -filter_complex 'split [a][b];[a] palettegen [p];[b][p] paletteuse' -y /home/juan/Documentos/GitHub/epoch/epoch2d/output/dumps/density_scan/dens_1.0e24/number_density.gif
+2023-05-18 12:57:21,195 Creating longitudinal electric field animation
+2023-05-18 12:57:21,213 Animation.save using <class 'matplotlib.animation.PillowWriter'>
